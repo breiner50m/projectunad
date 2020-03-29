@@ -169,9 +169,6 @@ p{
     nav {
         background-color: orangered;
         height: 10vh;
-        overflow: hidden;
-        
-        
     }
     #robot{
 
@@ -182,9 +179,6 @@ p{
     #header{
         height: 10vh;
     }
-    #menu{
     
-        position: fixed;
-    }
 }
 
