@@ -182,5 +182,9 @@ p{
     #header{
         height: 10vh;
     }
+    #menu{
+    
+        position: fixed;
+    }
 }
 
