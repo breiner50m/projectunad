@@ -100,7 +100,7 @@ text-align: center;
 
 nav{
     background: white;
-    box-shadow: 0 0 15px 0 black;
+    box-shadow: 0 0 5px 0 black;
     height: 10vh;
     position: absolute;
     top: 90vh;
@@ -119,4 +119,60 @@ nav ul li a:hover{
 
 nav ul {
     margin: auto;
+}
+@media screen and (max-width: 800px){
+    #logo{
+        width: 5em;
+    }
+    #part1 h5{
+        font-size: 0.7em;
+        
+    }
+    nav ul li a{
+        color: white;
+        font-size: 0.8em;
+        
+    }
+    nav {
+        background-color: orangered;
+        height: 10vh;
+        
+    }
+    #cal{
+        border: #0E1A42 3px solid;
+        height: 40vh;
+        width: 70%;
+        position: absolute;
+        top: 15vh;
+        right: 15%;
+        left: 15%;
+        padding-left: 13px;
+        
+    }
+    #res{
+        border: #0E1A42 3px solid;
+        height: 25vh;
+        width: 70%;
+        position: absolute;
+        top: 60vh;
+        right: 15%;
+        left: 15%;
+        display: flex;
+        justify-content: center;
+       flex-direction: column;
+        align-items: center;
+        box-shadow: 0 0 5px 0 black;
+        padding: 8px;
+    
+    }
+    label{
+        width: 45%;
+        margin-right: 0px;
+        font-size: 0.9em;
+        padding-left: 6px;
+    }
+    input{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 }
