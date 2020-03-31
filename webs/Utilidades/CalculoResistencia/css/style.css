@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#header{
+        position: absolute;
+        top: 0vh;
+        height: 10vh;
+        width: 100%;
+        background-color: orangered;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 5px 0 black;
+}
+#logo{
+        width: 12%;
+}
+    #part1{
+    
+        background-color: #0E1A42;
+        height: 10vh;
+        width: 30%;
+       color: white;
+        text-align: center;
+    }
+    #main{
+        position: absolute;
+        top: 15vh;
+        right: 25%;
+        left: 25%;
+        width: 50%;
+        height: 70vh;
+        background-color: #0E1A42 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        
+        
+    }
+    #primera{
+        
+        height: 30px;
+        width: 80%;
+        margin-bottom: 3vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #segunda{
+        
+        height: 30px;
+        width: 80%;
+        margin-bottom: 3vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #tercera{
+       
+        height: 30px;
+        width: 80%;
+        margin-bottom: 3vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h6{
+        position: absolute;
+        top: 2vh;
+        left: 4vw;
+        
+    }
+    div h6{
+        font-size: 1.5em;
+    }
+    
+    select{
+        width: 30%;
+        height: 100%;
+        position: relative;
+        bottom: 4px;
+        background-color: #0E1A42;
+        border: red 2px solid;
+        border-left: red 0px solid;
+        color: #fff;
+        
+        
+    }
+    #resp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%; 
+    }
+    #resp label{
+        position: relative;
+        bottom: 0vh;
+        top: 7.6vh;
+        padding-bottom: 4px;
+        height: 68%; 
+    }
+    label{
+        width: 30%;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+        background-color: orangered;
+        padding-top: 3.2px;
+        border: red 2px solid;
+        border-right: red 0px solid;
+    }
+    button{
+        position: relative;
+        bottom: 3vh;
+        top: 2vh;
+        width: 15%;
+        color: #0E1A42;
+        font-weight: 630;
+        box-shadow: 0 0 3px 0 black;
+    }
+    input{
+        position: relative;
+        bottom: 3vh;
+        top: 7vh;
+        text-align: center;
+        width: 30%;
+        border: solid red 3px;
+        border-left: solid black 0px;
+    }
+    nav{
+        background: white;
+        box-shadow: 0 0 5px 0 black;
+        height: 10vh;
+        position: absolute;
+        top: 90vh;
+        background-color: #0E1A42;
+        
+    }
+    nav ul li a{
+        color: white;
+        
+    }
+    nav ul li a:hover{
+        background-color: #EE4400;
+        color: #fff;
+        
+    }
+    
+    nav ul {
+        margin: auto;
+    }

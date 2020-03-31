@@ -17,6 +17,7 @@ const formatterPeso = new Intl.NumberFormat('es-CO', {
      
 
 function resultado(){
+    
     calculoWin();
     calculoIva();
     calculoUtl(vcompra,impuesto,ganancia)

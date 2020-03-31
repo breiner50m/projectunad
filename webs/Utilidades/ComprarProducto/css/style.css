@@ -27,29 +27,68 @@ padding: 0;
 }
 
 #cal{
-    border: #0E1A42 3px solid;
+    background-color: #0E1A42;
     height: 40vh;
-    width: 40%;
+    width: 50%;
     position: absolute;
     top: 15vh;
-    right: 30%;
-    left: 30%;
+    right: 25%;
+    left: 25%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fff;
     box-shadow: 0 0 5px 0 black;
     
 }
+#pr{
+    position: relative;
+    top: 6vh;
+  
+    margin-bottom: 5px;
+}
+#seg{
+    position: relative;
+    top: 6vh;
+
+    margin-bottom: 5px;
+}
+#ter{
+    position: relative;
+    top: 6vh;
+    
+    margin-bottom: 5px;
+    height: fit-content;
+    
+
+}
+h6{
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+    color: #fff;
+}
+div h6{
+    font-size: 1.5em;
+}
 label{
+    position: relative;
+    left: 8px;
     width: 45%;
-    margin-right: 5%;
+    font-weight: 700;
+    color: #EE4400;
+    
 }
 input{
-    border: orangered 2px solid;
+    border: solid black 0px;
+    border-bottom: solid #EE4400 3px;
     width: 45%;
-    margin-left: 5%;
+    height: 5vh;
+    position: relative;
+    top: 3px;
+    left: 4px;
 }
 #calcular{
     background-color: orangered;
@@ -63,13 +102,13 @@ input{
 }
 
 #res{
-    border: #0E1A42 3px solid;
+    background-color:  #0E1A42 ;
     height: 25vh;
-    width: 40%;
+    width: 50%;
     position: absolute;
     top: 60vh;
-    right: 30%;
-    left: 30%;
+    right: 25%;
+    left: 25%;
     display: flex;
     justify-content: center;
    flex-direction: column;
@@ -81,17 +120,20 @@ input{
 
 #res input{
     border: solid black 0px;
-    border-bottom: solid #0E1A42 3px;
+    border-bottom: solid #EE4400 3px;
    margin-top: -8px;
-    
-    
+   position: relative;
+   bottom:4px ;
+   margin-bottom: 4px;
     text-align: center;
 
 }
 #res label{
-margin-top: 7px;
+position: relative;
+bottom:4px ;
+
 font-weight: 500;
-color: #EE4400;
+color: white;
 padding: 4px;
 width: fit-content;
 text-align: center;
@@ -123,6 +165,9 @@ nav ul {
 @media screen and (max-width: 800px){
     #logo{
         width: 5em;
+    }
+    div h6{
+        font-size: 1em;
     }
     #part1 h5{
         font-size: 0.7em;
@@ -168,7 +213,7 @@ nav ul {
     label{
         width: 45%;
         margin-right: 0px;
-        font-size: 0.9em;
+        font-size: 0.7em;
         padding-left: 6px;
     }
     input{

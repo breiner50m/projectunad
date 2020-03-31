@@ -26,17 +26,27 @@
    </div>
     
     <div id="main">
+      
         <div id="cal">
+          <div><h6>Calculo de Resistencia</h6></div>
+          <style>
+            input[type=number]::-webkit-outer-spin-button,
+            input[type=number]::-webkit-inner-spin-button {-webkit-appearance: none; margin: 0;}
+            input[type=number] {-moz-appearance:textfield;}
+          </style>
             <form action="">
-                <br>
-                <label for="vcompra">Valor de compra:</label>
-                <input type="number" id="vcompra" required>
-                <br>
-                <label for="ganancia">% utilidad:</label>
-                <input type="number" id="ganancia" required>
-                <br>
-                <label for="iva">% IVA:</label>
-                <input type="number" id="iva" required>
+                <div id="pr">
+                  <label for="vcompra">Valor de compra:</label>
+                  <input type="number" id="vcompra" required>  
+                </div>
+                <div id="seg">
+                  <label for="ganancia">% utilidad:</label>
+                  <input type="number" id="ganancia" required>  
+                </div>
+                <div id="ter">
+                  <label for="iva">% IVA:</label>
+                  <input type="number" id="iva" required>  
+                </div>
                 <br>
                 <button type="button" id="calcular" onclick="resultado()">Calcular</button>
             </form>
