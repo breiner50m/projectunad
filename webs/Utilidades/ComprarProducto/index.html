@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es-CO"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="descripcion"
+        content="Este sitio web presenta el aplicativo web de la fase 3 Unad - calculo del precio">
+    <meta name="author" content="Breiner Mosquera">
+    <meta name="keywords" content="aplicativo web fase3 unad calculo precio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=img\icon.png rel="shortcut icon" type=image/vnd.microsoft.icon />
+    <title>Calculo precio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+   <div id="header">
+    <div id="part2"><img id="logo" src="img/logo_unad.jpg" alt="logo de la unad"></div>
+
+    <div id="part1">
+      <h5>“Texas Electronics”</h5>
+      <h5>Desarrollado por Breiner Mosquera</h5></div>
+   </div>
+    
+    <div id="main">
+        <div id="cal">
+            <form action="">
+                <br>
+                <label for="vcompra">Valor de compra:</label>
+                <input type="number" id="vcompra" required>
+                <br>
+                <label for="ganancia">% utilidad:</label>
+                <input type="number" id="ganancia" required>
+                <br>
+                <label for="iva">% IVA:</label>
+                <input type="number" id="iva" required>
+                <br>
+                <button type="button" id="calcular" onclick="resultado()">Calcular</button>
+            </form>
+            
+        </div>
+        <div id="res">
+            
+           <label for="vventa">Valor venta</label>
+           <input type="text"  id="rsvventa">
+           
+           <label for="vventa">Ganancia</label> 
+           <input type="text"  id="rsganancia">
+           
+        </div>
+
+    </div>
+
+    <nav class="navbar navbar-expand ">
+        <ul class="navbar-nav">
+          <li class="nav-item dropup">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop">Utilidades</a>
+            <div class="dropdown-menu" id="menu">
+              <a href="#" class="dropdown-item" id="item">Comprar Productos</a>
+              <a href="#" class="dropdown-item" id="item">Calculo Resistencias</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Administracion</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Ventas</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Inventario</a></li>
+          
+        </ul>
+      </nav>
+
+     <script src="js/fire.js"></script> 
+ <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
