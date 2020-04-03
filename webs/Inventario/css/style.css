@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+#main{
+    
+    position: absolute;
+    top: 10vh;
+    width: 100vw;
+    height: 80vh;
+    
+}
+#header{
+    position: absolute;
+    top: 0vh;
+    width: 100vw;
+    height: 10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+   
+}
+#logo{
+    width: 12%;
+}
+#part1{
+    color: white;
+    background-color: #0E1A42;
+    height: 10vh;
+    width: 35%;
+    text-align: center;
+    padding: 3px;
+    
+    
+}
+#butones{
+    position: absolute;
+    width: 30vw;
+    bottom: 20vh;
+    left:35vw;
+    right:35vw;
+    display: flex;
+    justify-content: space-between;
+   
+}
+table{
+    height: 60%;
+}
+#tabla{
+    position: absolute;
+    top: 15vh;
+   width: 80vw;
+   right: 10vw;
+   left: 10vw;
+   height: 60vh;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+tbody tr:hover{
+    
+    cursor: pointer;
+    background-color: #3054CE;
+}
+thead tr{
+    padding: 20px;
+    border-bottom: 3px solid #EE4400;
+    
+}
+#butones button:disabled{
+background-color: #FFD3C2;
+}
+#search {
+    position: absolute;
+  
+    top: 5vh;
+    width: 50vw;
+    left: 25vw;
+    right: 25vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+#search input{
+
+    position: relative;
+    margin-bottom: 10px;
+    bottom: 1.7px;
+    border-bottom: solid #EE4400 3px;
+    
+}
+#nuevo {
+    position: absolute;
+    width: 70vw;
+    top: 63vh;
+    left: 15vw;
+    right: 15vw;
+    text-align: center;
+    
+    display: none;
+}
+input{
+    border-radius: 6px;
+    border: 1px solid #D4D4D4;
+}
+
+#nuevo input{
+    
+    margin-bottom: 10px;
+    
+    width: 148px;
+    border-bottom: solid #EE4400 3px;
+
+}
+#imag{
+    height: 34.2px;
+}
+#imag:hover{
+cursor: pointer;
+}
+#casa{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    right: 24vw;
+    overflow: hidden;
+    background-color: #EE4400;
+    height: 10vh;
+    width: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#butones button{
+    width: 80px;
+    background-color: #EE4400;
+    color: #fff;
+}
+#butones button:hover{
+    background-color: #D13C00 ;
+}
+#buscar{
+    margin-left: 5px;
+    position: relative;
+    width: 34.2px;
+    height: 34.2px;
+    right: 4px;
+    bottom: 2px;
+    box-shadow: 0 0 1px 0 black;
+}
+#buscar:hover{
+    box-shadow: 0 0 3px 0 #FF4900;
+    cursor: pointer;
+}
+nav{
+    background: #0E1A42;
+    box-shadow: 0 0 15px 0 black;
+    height: 10vh;
+    position: absolute;
+    top: 90vh;
+ 
+    
+    
+}
+nav ul li a{
+    color: white;
+    
+}
+nav ul li a:hover{
+    background-color: #EE4400;
+    color: #fff;
+    
+}
+
+nav ul {
+    margin: auto;
+}
+table{
+    width: 80%;
+    
+}
+
+
+@media screen and (max-width: 800px){
+    #logo{
+        width: 5em;
+    }
+    div h6{
+        font-size: 1em;
+    }
+    #part1 h5{
+        font-size: 0.7em;
+        
+    }
+    nav ul li a{
+        color: white;
+        font-size: 0.8em;
+        
+    }
+    nav {
+        background-color: orangered;
+        height: 10vh;
+        
+    }
+    #main{
+        
+        width: 100vw;
+       
+    }
+    #tabla{
+        position: absolute;
+        width: 95vw;
+        left: 2.5vw;
+        right: 2.5vw;
+       
+    
+    }
+    table{
+        width: 100%;
+        height: 50%;
+        font-size: 0.7rem;
+    }
+    #butones{
+        position: absolute;
+    width: 60vw;
+    bottom: 13vh;
+    left: 20vw;
+    right: 20vw;
+    display: block;
+    }
+    #butones button{
+        width: 48%;
+        
+        color: #fff;
+    }
+    
+    #del{
+        width: 50%;
+        position: relative;
+        right: 25%;
+        left: 25%;
+        margin-top: 5px;
+    }
+    #nuevo {
+        position: absolute;
+        width: 80vw;
+        top: 57vh;
+        left: 10vw;
+        right: 10vw;
+    }
+    #nuevo input{
+    
+        margin-bottom: 8px;
+    width: 48%;
+    
+    }
+
+
+    #casa{
+        
+        position: absolute;
+        left: 0vw;
+        bottom: 0px;
+        width: 25px;
+        height: 10.1vh;
+        border: 1px #0E1A42 solid;
+    
+        
+    }
+    #home{
+        position: absolute;
+        left: 0vw;
+        top: 26px;
+        width: 20px;
+        
+        
+    }
+   
+}

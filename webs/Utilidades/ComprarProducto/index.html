@@ -9,7 +9,7 @@
     <meta name="keywords" content="aplicativo web fase3 unad calculo precio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href=img\icon.png rel="shortcut icon" type=image/vnd.microsoft.icon />
-    <title>Calculo precio</title>
+    <title>Utilidades</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -36,16 +36,16 @@
           </style>
             <form action="">
                 <div id="pr">
-                  <label for="vcompra">Valor de compra:</label>
-                  <input type="number" id="vcompra" required>  
+                  
+                  <input type="number" id="vcompra" placeholder="Valor de compra" required>  
                 </div>
                 <div id="seg">
-                  <label for="ganancia">% utilidad:</label>
-                  <input type="number" id="ganancia" required>  
+                  
+                  <input type="number" id="ganancia" placeholder="% utilidad" required>  
                 </div>
                 <div id="ter">
-                  <label for="iva">% IVA:</label>
-                  <input type="number" id="iva" required>  
+                  
+                  <input type="number" id="iva" placeholder="% IVA" required>  
                 </div>
                 <br>
                 <button type="button" id="calcular" onclick="resultado()">Calcular</button>
@@ -65,7 +65,9 @@
     </div>
 
     <nav class="navbar navbar-expand ">
+      
         <ul class="navbar-nav">
+          <li id="casa"><a href="../../../index.html"><img id="home" src="img/home.png" alt="icono de casa"></a></li>
           <li class="nav-item dropup">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop">Utilidades</a>
             <div class="dropdown-menu" id="menu">
@@ -74,8 +76,8 @@
             </div>
           </li>
           <li class="nav-item"><a href="#" class="nav-link">Administracion</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Ventas</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Inventario</a></li>
+          <li class="nav-item"><a href="../../Ventas/index.html" class="nav-link">Ventas</a></li>
+          <li class="nav-item"><a href="../../Inventario/index.html" class="nav-link">Inventario</a></li>
           
         </ul>
       </nav>

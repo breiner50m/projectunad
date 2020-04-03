@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resistencia</title>
+    <meta name="descripcion"
+        content="Este sitio web presenta el aplicativo web de la fase 3 Unad - calculo de resistencia">
+    <meta name="author" content="Breiner Mosquera">
+    <meta name="keywords" content="aplicativo web fase3 unad calculo resistencia">
+    <title>Utilidades</title>
     <link rel="stylesheet" href="css/style.css">
     <link href=img\icon.png rel="shortcut icon" type=image/vnd.microsoft.icon />
     <!-- Bootstrap CSS -->
@@ -71,7 +75,7 @@
             </select>
         </div>
 
-        <button onclick="Calcular()" >Calcular</button>
+        <button style="border-radius: 10px;" onclick="Calcular()" >Calcular</button>
         <div id="resp">
             <label for="text">Valor de resistencia:</label>
             <input type="text" id="respuesta">
@@ -80,7 +84,9 @@
         
     </div>
     <nav class="navbar navbar-expand ">
+        
         <ul class="navbar-nav">
+            <li id="casa"><a href="../../../index.html"><img id="home" src="img/home.png" alt="icono de casa"></a></li>
             <li class="nav-item dropup">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop">Utilidades</a>
                 <div class="dropdown-menu" id="menu">
@@ -89,8 +95,8 @@
                 </div>
             </li>
             <li class="nav-item"><a href="#" class="nav-link">Administracion</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Ventas</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Inventario</a></li>
+            <li class="nav-item"><a href="../../Ventas/index.html" class="nav-link">Ventas</a></li>
+            <li class="nav-item"><a href="../../Inventario/index.html" class="nav-link">Inventario</a></li>
 
         </ul>
     </nav>
