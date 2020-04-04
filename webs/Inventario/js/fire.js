@@ -143,9 +143,13 @@ function buscar(){
                 document.getElementById("cod"+index).style.backgroundColor = "#0E1A42";   
             }
             document.getElementById("cod"+num).style.backgroundColor = "#3054CE";
+            
+            document.getElementById("pp").innerHTML="";
 
             break;
 
+        }else{
+            document.getElementById("pp").innerHTML="No exite el producto";
         }
         
         

@@ -18,6 +18,15 @@
  :-ms-input-placeholder {  
     text-align: center; 
  }
+#pp{
+    color: red;
+    top: 10vh;
+    position: absolute;
+    right: 40vw;
+    left: 40vw;
+    width: 20vw;
+    text-align: center;
+}
 #main{
     
     position: absolute;
