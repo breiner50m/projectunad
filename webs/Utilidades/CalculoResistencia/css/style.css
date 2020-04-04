@@ -149,7 +149,7 @@
     
     input{
         position: relative;
-        
+        border-radius: 6px;
         top: 7.5vh;
         text-align: center;
         width: 20%;

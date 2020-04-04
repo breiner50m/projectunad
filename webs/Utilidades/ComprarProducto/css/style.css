@@ -204,6 +204,12 @@ nav ul {
     margin: auto;
 }
 @media screen and (max-width: 800px){
+    #calcular{
+        width: 40%;
+    }
+    form{
+        width: 80%;
+    }
     #logo{
         width: 5em;
     }
